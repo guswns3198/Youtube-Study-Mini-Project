@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-image: url(./배경\ 이미지.jpg);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+.one {
+  font-size: 4em;
+  background: none;
+  padding-bottom: 0.5rem;
+  font-family: 'Dancing Script', cursive;
+}
+
+.two {
+  font-size: 1.5em;
+  padding-bottom: 1em;
+  background: none;
+  font-family: 'Questrial', sans-serif;
+}
+
+button {
+  background: none;
+  width: 150px;
+  height: 50px;
+  color: white;
+  border-radius: 20px;
+  border: 2px solid white;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: .4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.276);
+  color: black;
+  font-size: 1.4rem;
+}
